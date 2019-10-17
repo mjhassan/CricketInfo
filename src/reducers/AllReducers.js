@@ -1,4 +1,4 @@
-import {combineReducers} from 'react-redux';
+import {combineReducers} from 'redux';
 import FirstInningsReducer from './FirstInningsReducer';
 import SecondInningsReducer from './SecondInningsReducer';
 import MatchConfigReducer from './MatchConfigReducer';

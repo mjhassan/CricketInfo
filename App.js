@@ -1,6 +1,6 @@
 import React from 'react';
 import {Router, Scene} from 'react-native-router-flux';
-import {Provider} from 'redux';
+import {Provider} from 'react-redux';
 
 import matchStore from './src/store';
 
