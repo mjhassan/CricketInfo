@@ -266,13 +266,11 @@ DerivedData/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
-####
-# CocoaPods
+## CocoaPods
 Pods/
 !Podfile
 
-####
-# Carthage
+## Carthage
 Carthage/Build.rbenv-vars
 !Cartfile
 !Cartfile.private
