@@ -25,7 +25,7 @@ const initialstate = {
 };
 
 function firstInnReducer(state = initialstate, action) {
-  switch  (action.type) {
+  switch (action.type) {
     case MatchActionTypes.ADD_RUNS_INN_1:
       const {
         balls_delivered,
@@ -55,7 +55,7 @@ function firstInnReducer(state = initialstate, action) {
       return {
         ...state,
         wickets_down: state.wickets_down + 1,
-      };;
+      };
 
     case MatchActionTypes.WIDEBALL_INN_1:
       return {
@@ -64,7 +64,7 @@ function firstInnReducer(state = initialstate, action) {
           ...state.extras,
           wide_balls: state.extras.wide_balls + 1,
         },
-      };;
+      };
     case MatchActionTypes.NOBALL_INN_1:
       return {
         ...state,
@@ -72,7 +72,7 @@ function firstInnReducer(state = initialstate, action) {
           ...state.extras,
           no_balls: state.extras.no_balls + 1,
         },
-      };;
+      };
     case MatchActionTypes.LOAD_STORAGE:
       return action.payload.first_innings;
 
