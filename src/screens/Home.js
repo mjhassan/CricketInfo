@@ -1,12 +1,5 @@
 import React, {Component} from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Image,
-  TouchableOpacity,
-  ScrollView,
-} from 'react-native';
+import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import {
   responsiveHeight,
   responsiveWidth,
@@ -14,8 +7,6 @@ import {
 } from 'react-native-responsive-dimensions';
 import {getStatusBarHeight} from 'react-native-status-bar-height';
 import MenuButton from './../components/elements/MenuButton';
-import MatchOptions from './../components/MatchOptions';
-import HalfModal from './../components/elements/HalfModal';
 
 import {Actions} from 'react-native-router-flux';
 
@@ -36,7 +27,7 @@ export default class Home extends Component {
 
           <TouchableOpacity
             style={styles.item}
-            onPress={() => this._handleMatchPress({})}>
+            onPress={this._handleMatchPress}>
             <View>
               <Image
                 style={styles.img}
