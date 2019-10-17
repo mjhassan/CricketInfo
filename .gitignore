@@ -266,6 +266,18 @@ DerivedData/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 
+####
+# CocoaPods
+Pods/
+!Podfile
+
+####
+# Carthage
+Carthage/Build.rbenv-vars
+!Cartfile
+!Cartfile.private
+!Cartfile.resolved
+
 ### ReactNative.Linux Stack ###
 *~
 
