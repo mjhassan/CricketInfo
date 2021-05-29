@@ -33,7 +33,7 @@
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
     "react-test-renderer": "16.9.0",
-    "ws": ">=3.3.1"
+    "ws": ">=7.4.6"
   },
   "jest": {
     "preset": "react-native"
